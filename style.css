@@ -43,6 +43,12 @@ a {
   min-height: 600px;
 }
 
+/*PROFILE*/
+/*PROFILE*/
+/*PROFILE*/
+/*PROFILE*/
+/*PROFILE*/
+
 .profile {
   background: #fff;
   width: 40%;
@@ -197,6 +203,12 @@ a {
   fill: #66cc99;
 }
 
+/*EXPERIENCE*/
+/*EXPERIENCE*/
+/*EXPERIENCE*/
+/*EXPERIENCE*/
+/*EXPERIENCE*/
+
 .experience {
   background: #3d3e42;
   width: 60%;
@@ -250,6 +262,76 @@ a {
   color: white;
   margin-bottom: 15px;
 }
+
+/*PROJECTS*/
+/*PROJECTS*/
+/*PROJECTS*/
+/*PROJECTS*/
+/*PROJECTS*/
+
+
+.projects {
+  background: #f5fffb; /*f5fffb e3fff3*/
+  width: 100%;
+  float: left;
+  position: relative;
+  color: #4a4e51;
+  font-weight: 300;
+  min-height: 100%;
+  min-height: 100vh;
+}
+@media (max-width: 850px) {
+  .projects {
+    width: 100%;
+  }
+}
+.projects h3.projects-title {
+  color: #4a4e51;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.projects .company-wrapper {
+  width: 30%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+}
+@media (max-width: 450px) {
+  .projects .company-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.projects .job-wrapper {
+  width: 70%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+}
+@media (max-width: 450px) {
+  .projects .job-wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+.projects .projects-title {
+  color: #4a4e51;
+  margin-bottom: 15px;
+}
+
+
+
+
+/*PADDING*/
+/*PADDING*/
+/*PADDING*/
+/*PADDING*/
+/*PADDING*/
 
 .section-padding {
   padding: 60px 60px 40px 40px;
