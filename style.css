@@ -339,6 +339,7 @@ a {
 
 
 
+
 /*PADDING*/
 /*PADDING*/
 /*PADDING*/
@@ -346,7 +347,7 @@ a {
 /*PADDING*/
 
 .section-padding {
-  padding: 60px 50px 40px 40px;
+  padding: 60px 80px 40px 90px;
 }
 @media (max-width: 850px) {
   .section-padding {
