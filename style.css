@@ -40,7 +40,12 @@ a {
 }
 
 .container {
-  min-height: 600px;
+  min-height: 650px;
+}
+
+.utilite-full {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /*PROFILE*/
@@ -280,9 +285,16 @@ a {
   min-height: 100%;
   min-height: 100vh;
 }
+
+@media (min-width: 550px) {
+  .project.col {width: 80%;}
+  align: center;
+}
+
 @media (max-width: 850px) {
   .projects {
     width: 100%;
+	margin-bottom: 20px;
   }
 }
 .projects h3.projects-title {
@@ -293,28 +305,28 @@ a {
   margin-bottom: 20px;
   font-weight: 400;
 }
-.projects .company-wrapper {
-  width: 30%;
+.projects .project-wrapper {
+  width: 50%;
   float: left;
   text-align: left;
   padding-right: 5%;
   margin-bottom: 60px;
 }
 @media (max-width: 450px) {
-  .projects .company-wrapper {
+  .projects .project-wrapper {
     width: 100%;
     margin-bottom: 20px;
   }
 }
-.projects .job-wrapper {
-  width: 70%;
+.projects .img-wrapper {
+  width: 50%;
   float: left;
   text-align: left;
-  padding-right: 5%;
+  padding-right: 0%;
   margin-bottom: 60px;
 }
 @media (max-width: 450px) {
-  .projects .job-wrapper {
+  .projects .img-wrapper {
     width: 100%;
     margin-bottom: 40px;
   }
@@ -334,7 +346,7 @@ a {
 /*PADDING*/
 
 .section-padding {
-  padding: 60px 60px 40px 40px;
+  padding: 60px 50px 40px 40px;
 }
 @media (max-width: 850px) {
   .section-padding {
