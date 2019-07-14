@@ -1,1 +1,0 @@
-# stomg.github.io
