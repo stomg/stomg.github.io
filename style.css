@@ -343,6 +343,7 @@ hr {
 .projects .projects-title {
   color: #4a4e51;
   margin-bottom: 15px;
+  font-weight: 400;
 }
 
 
@@ -371,7 +372,7 @@ hr {
 
 
 .projsection-padding {
-  padding: 80px 150px 40px 150px;
+  padding: 80px 270px 40px 270px;
 }
 @media (max-width: 950px) {
   .projsection-padding {
